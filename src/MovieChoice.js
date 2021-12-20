@@ -40,7 +40,7 @@ export default function MovieChoice(props)
         <div className="available-movies flex center-hor">
         {movies.map(item =>
             <Link to={`/filme/${item.id}`} key={item.id}>
-            <div  className='movie-container flex center-hor vertical-hor'>
+            <div  className='movie-container flex center-hor center-ver'>
                 <img src={item.posterURL} alt={item.name} />
             </div>
             </Link>
