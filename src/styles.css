@@ -1,0 +1,230 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.center-hor
+{
+    justify-content: center;
+}
+.center-ver
+{
+    align-items: center;
+}
+
+.grey-bg
+{
+    background-color: #C3CFD9;
+}
+
+.total-width
+{
+    width: 100%;
+}
+
+.weight-400
+{
+    font-weight: 400;
+}
+.weight-700
+{
+    font-weight: 700;
+}
+.size-24
+{
+    font-size: 24px;
+}
+
+.header
+{
+    height: 67px;
+}
+.header h1
+{
+    color: #E8833A;
+    font-size: 34px;
+}
+
+.choice-title
+{
+    height: 110px;
+}
+.choice-title-last
+{
+    color: #247A6B;
+}
+
+.available-movies
+{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.movie-container
+{
+    width: 145px;
+    height: 209px;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.movie-container img
+{
+    width: 129px;
+    height: 193px;
+}
+
+.day
+{
+    margin: 24px;
+}
+.day h3
+{
+    font-size: 20px;
+}
+
+.time-choice
+{
+    margin-left: 24px;
+    width: 82px;
+    height: 43px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #E8833A;
+    border: none;
+    border-radius: 3px;
+    color: #fff
+}
+.time-choice:last-child
+{
+    margin-bottom: 24px;
+}
+
+.current-choice
+{
+    width: 100%;
+    height: 117px;
+    align-items: center;
+    background-color: #DFE6ED;
+    border-top: 1px solid #9EADBA;
+}
+.frame
+{
+    width: 64px;
+    height: 89px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    margin-left: 10px;
+    background-color: #fff;
+}
+.frame img
+{
+    width: 48px;
+    height: 72px;
+}
+.written-info
+{
+    margin-left: 14px;
+    font-size: 26px;
+    flex-direction: column;
+}
+
+.available-seats
+{
+    margin: auto;
+    width: 323px;
+    height: 202px;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+.seat-types
+{
+    margin-top: 25px;
+    justify-content: space-evenly;
+}
+.seat-type
+{
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+}
+
+.buyer-info
+{
+    margin: 40px 26px 0;
+}
+.buyer-info span
+{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.buyer-info input
+{
+    margin-top: 5px;
+    height: 51px;
+    border: 1px solid #D5D5D5;
+    border-radius: 3px;
+    padding-left: 18px;
+}
+.buyer-info button
+{
+    background-color: #E8833A;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    width: 225px;
+    height: 42px;
+    font-size: 18px;
+    margin: 50px 0 20px 0;
+}
+
+input::placeholder
+{
+    color: #AFAFAF;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.name
+{
+    flex-direction: column;
+}
+.cpf
+{
+    flex-direction: column;
+}
+
+.session-summary
+{
+    margin:0 30px 0 30px;
+    height: 400px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.session-summary span
+{
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.session-summary button
+{
+    background-color: #E8833A;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    width: 225px;
+    height: 42px;
+    font-size: 18px;
+}
+
+.final-info
+{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 2px 0 0 2px;
+}
