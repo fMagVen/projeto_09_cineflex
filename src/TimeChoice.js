@@ -38,7 +38,7 @@ export default function TimeChoice()
             {movieInfo.days.map(item =>
             <>
             <div className="day flex" key={item.id}>
-                <h3 className='weight-400'>{item.weekday} - </h3><h3 className='weight-400'>{item.date}</h3>
+                <h3 className='weight-400'>{item.weekday} - {item.date}</h3>
             </div>
                 {item.showtimes.map(subitem =>
                     <Link to={`/sessao/${subitem.id}`} key={subitem.id}>

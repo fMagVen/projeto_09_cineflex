@@ -37,8 +37,12 @@ export default function SeatChoice(props)
         for(let i = 0; i < sessionInfo.seats.length; i++)
         {
             sessionInfoReplacer.seats.push(sessionInfo.seats[i])
-            if(sessionInfoReplacer.seats[i].id === seatId)
+            if(sessionInfoReplacer.seats[i].id === seatId && sessionInfoReplacer.seats[i].isAvailable === false)
+                alert('Esse assento não está disponível')
+            else if(sessionInfoReplacer.seats[i].id === seatId && sessionInfoReplacer.seats[i].isAvailable === true && sessionInfoReplacer.seats[i].chosen === false)
                 sessionInfoReplacer.seats[i].chosen = true
+            else if(sessionInfoReplacer.seats[i].id === seatId && sessionInfoReplacer.seats[i].chosen === true)
+                sessionInfoReplacer.seats[i].chosen = false
         }
         setSessionInfo(sessionInfoReplacer)
     }
